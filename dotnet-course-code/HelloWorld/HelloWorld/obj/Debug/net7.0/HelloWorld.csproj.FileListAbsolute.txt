@@ -1,0 +1,15 @@
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.exe
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.deps.json
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.runtimeconfig.json
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\bin\Debug\net7.0\HelloWorld.pdb
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.AssemblyReference.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfoInputs.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.AssemblyInfo.cs
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.csproj.CoreCompileInputs.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\refint\HelloWorld.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.pdb
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\HelloWorld.genruntimeconfig.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\HelloWorld\obj\Debug\net7.0\ref\HelloWorld.dll
