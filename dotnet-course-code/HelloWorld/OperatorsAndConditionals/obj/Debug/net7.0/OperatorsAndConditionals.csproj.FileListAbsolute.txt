@@ -1,0 +1,15 @@
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\bin\Debug\net7.0\OperatorsAndConditionals.exe
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\bin\Debug\net7.0\OperatorsAndConditionals.deps.json
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\bin\Debug\net7.0\OperatorsAndConditionals.runtimeconfig.json
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\bin\Debug\net7.0\OperatorsAndConditionals.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\bin\Debug\net7.0\OperatorsAndConditionals.pdb
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\OperatorsAndConditionals.csproj.AssemblyReference.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\OperatorsAndConditionals.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\OperatorsAndConditionals.AssemblyInfoInputs.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\OperatorsAndConditionals.AssemblyInfo.cs
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\OperatorsAndConditionals.csproj.CoreCompileInputs.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\OperatorsAndConditionals.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\refint\OperatorsAndConditionals.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\OperatorsAndConditionals.pdb
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\OperatorsAndConditionals.genruntimeconfig.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\OperatorsAndConditionals\obj\Debug\net7.0\ref\OperatorsAndConditionals.dll

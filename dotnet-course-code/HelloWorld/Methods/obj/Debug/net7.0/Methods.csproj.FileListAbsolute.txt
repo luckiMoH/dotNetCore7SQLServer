@@ -1,0 +1,15 @@
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\bin\Debug\net7.0\Methods.exe
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\bin\Debug\net7.0\Methods.deps.json
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\bin\Debug\net7.0\Methods.runtimeconfig.json
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\bin\Debug\net7.0\Methods.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\bin\Debug\net7.0\Methods.pdb
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\Methods.csproj.AssemblyReference.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\Methods.AssemblyInfoInputs.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\Methods.AssemblyInfo.cs
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\Methods.csproj.CoreCompileInputs.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\Methods.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\refint\Methods.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\Methods.pdb
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\Methods.genruntimeconfig.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Methods\obj\Debug\net7.0\ref\Methods.dll

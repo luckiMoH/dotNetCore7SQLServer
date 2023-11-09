@@ -1,0 +1,15 @@
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\bin\Debug\net7.0\Loops.exe
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\bin\Debug\net7.0\Loops.deps.json
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\bin\Debug\net7.0\Loops.runtimeconfig.json
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\bin\Debug\net7.0\Loops.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\bin\Debug\net7.0\Loops.pdb
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\Loops.csproj.AssemblyReference.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\Loops.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\Loops.AssemblyInfoInputs.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\Loops.AssemblyInfo.cs
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\Loops.csproj.CoreCompileInputs.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\Loops.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\refint\Loops.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\Loops.pdb
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\Loops.genruntimeconfig.cache
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Loops\obj\Debug\net7.0\ref\Loops.dll
