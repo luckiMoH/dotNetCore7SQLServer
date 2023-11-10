@@ -4,8 +4,9 @@
     "\\dotnet-course-code",
     "\\dotnet-course-code\\HelloWorld",
     "\\dotnet-course-code\\HelloWorld\\HelloWorld",
-    "\\dotnet-course-code\\HelloWorld\\Loops"
+    "\\dotnet-course-code\\HelloWorld\\Loops",
+    "\\dotnet-course-code\\HelloWorld\\Methods"
   ],
-  "SelectedNode": "\\dotnet-course-code\\HelloWorld\\Loops\\Program.cs",
+  "SelectedNode": "\\dotnet-course-code\\HelloWorld\\Methods\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
