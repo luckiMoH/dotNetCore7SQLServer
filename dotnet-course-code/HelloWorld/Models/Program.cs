@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
+using Models.Data;
 using Models.Models;
 using System.Data;
 using System.Globalization;
@@ -12,13 +13,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            string connectionString = "Server=localhost;Database=DotNetCourseDatabase;TrustServerCertificate=true;Trusted_Connection=true;";
-
-            IDbConnection dbConnection = new SqlConnection(connectionString);
+            DataContextDapper dataContextDapper = new DataContextDapper();
 
             string sqlCommand = "SELECT GETDATE()";
 
-            DateTime rightNow = dbConnection.QuerySingle<DateTime>(sqlCommand);
+            DateTime rightNow = dataContextDapper.LoadDataSingle<DateTime>(sqlCommand);
 
             Console.WriteLine(rightNow);
 
@@ -52,7 +51,8 @@ namespace HelloWorld
 
             //Console.WriteLine(sql);
 
-            int result = dbConnection.Execute(sql); // dodawanie wartości do bazy danych na podstawie stworzonego SQL Query sql
+            //int result = dataContextDapper.ExecuteSqlWithRowCount(sql); // dodawanie wartości do bazy danych na podstawie stworzonego SQL Query sql
+            bool result = dataContextDapper.ExecuteSql(sql); // dodawanie wartości do bazy danych na podstawie stworzonego SQL Query sql
             //Console.WriteLine(result);
 
             string sqlSelect = @"
@@ -65,7 +65,7 @@ namespace HelloWorld
                 Computer.VideoCard
                FROM TutorialAppSchema.Computer";
 
-            IEnumerable<Computer> computers = dbConnection.Query<Computer>(sqlSelect);
+            IEnumerable<Computer> computers = dataContextDapper.LoadData<Computer>(sqlSelect); // wyciąganie IEnumerable(kolekcji) z bazy danych
 
             Console.WriteLine("Tutaj są dane przesłane z bazy danych");
 
