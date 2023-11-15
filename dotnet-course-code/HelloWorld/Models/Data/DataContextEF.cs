@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Models.Models;
 using System;
 using System.Collections.Generic;
@@ -10,12 +11,17 @@ namespace Models.Data
 {
     internal class DataContextEF : DbContext
     {
+        private IConfiguration _config;
+        public DataContextEF(IConfiguration config)
+        {
+            _config = config;
+        }
         public DbSet<Computer>? Computer { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             if (!options.IsConfigured) //sprawdzenie, czy juz bylo skonfigurowane
             {
-                options.UseSqlServer("Server=localhost;Database=DotNetCourseDatabase;TrustServerCertificate=true;Trusted_Connection=true;",
+                options.UseSqlServer(_config.GetConnectionString("DefaultConnection"),
                     options => options.EnableRetryOnFailure());
             }
         }

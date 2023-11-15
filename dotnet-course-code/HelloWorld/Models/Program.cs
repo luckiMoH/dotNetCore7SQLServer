@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 using Models.Data;
 using Models.Models;
 using System.Data;
@@ -14,8 +15,12 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            DataContextDapper dataContextDapper = new DataContextDapper();
-            DataContextEF entityFramework = new DataContextEF();
+            IConfiguration config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            DataContextDapper dataContextDapper = new DataContextDapper(config);
+            DataContextEF entityFramework = new DataContextEF(config);
 
             string sqlCommand = "SELECT GETDATE()";
 
@@ -29,12 +34,12 @@ namespace HelloWorld
                 HasWifi = true,
                 HasLTE = false,
                 ReleaseDate = DateTime.Now,
-                Price = 8943.87m,
+                Price = 2943.87m,
                 VideoCard = "RTX 2060x"
             };
 
-            entityFramework.Add(myComputer);
-            entityFramework.SaveChanges();
+            //entityFramework.Add(myComputer); //dodawanie wartości do bazy danych
+            //entityFramework.SaveChanges(); //zapisywanie zmian
 
             Console.WriteLine(myComputer.Price); // comma jako separator
             Console.WriteLine(myComputer.Price.ToString("0.00", CultureInfo.InvariantCulture)); // zamiana comma na dot jako separator
@@ -57,7 +62,7 @@ namespace HelloWorld
             //Console.WriteLine(sql);
 
             //int result = dataContextDapper.ExecuteSqlWithRowCount(sql); // dodawanie wartości do bazy danych na podstawie stworzonego SQL Query sql
-            bool result = dataContextDapper.ExecuteSql(sql); // dodawanie wartości do bazy danych na podstawie stworzonego SQL Query sql
+            //bool result = dataContextDapper.ExecuteSql(sql); // dodawanie wartości do bazy danych na podstawie stworzonego SQL Query sql
             //Console.WriteLine(result);
 
             string sqlSelect = @"
