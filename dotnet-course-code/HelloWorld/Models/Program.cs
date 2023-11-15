@@ -3,6 +3,7 @@ using Microsoft.Data.SqlClient;
 using Models.Data;
 using Models.Models;
 using System.Data;
+using System.Diagnostics.Metrics;
 using System.Globalization;
 
 namespace HelloWorld
@@ -14,6 +15,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             DataContextDapper dataContextDapper = new DataContextDapper();
+            DataContextEF entityFramework = new DataContextEF();
 
             string sqlCommand = "SELECT GETDATE()";
 
@@ -23,13 +25,16 @@ namespace HelloWorld
 
             Computer myComputer = new Computer()
             {
-                Motherboard = "Z690",
+                Motherboard = "Z690x",
                 HasWifi = true,
                 HasLTE = false,
                 ReleaseDate = DateTime.Now,
-                Price = 943.87m,
-                VideoCard = "RTX 2060"
+                Price = 8943.87m,
+                VideoCard = "RTX 2060x"
             };
+
+            entityFramework.Add(myComputer);
+            entityFramework.SaveChanges();
 
             Console.WriteLine(myComputer.Price); // comma jako separator
             Console.WriteLine(myComputer.Price.ToString("0.00", CultureInfo.InvariantCulture)); // zamiana comma na dot jako separator
@@ -57,6 +62,7 @@ namespace HelloWorld
 
             string sqlSelect = @"
             SELECT 
+                Computer.ComputerId,
                 Computer.Motherboard,
                 Computer.HasWifi,
                 Computer.HasLTE,
@@ -67,11 +73,12 @@ namespace HelloWorld
 
             IEnumerable<Computer> computers = dataContextDapper.LoadData<Computer>(sqlSelect); // wyciąganie IEnumerable(kolekcji) z bazy danych
 
-            Console.WriteLine("Tutaj są dane przesłane z bazy danych");
+            Console.WriteLine("Tutaj są dane przesłane z bazy danych Dapper");
 
             foreach (Computer singleComputer in computers)
             {
-                Console.WriteLine("'" + singleComputer.Motherboard
+                Console.WriteLine("'" + singleComputer.ComputerId
+               + "','" + singleComputer.Motherboard
                + "','" + singleComputer.HasWifi
                + "','" + singleComputer.HasLTE
                + "','" + singleComputer.ReleaseDate.ToString("yyyy-MM-dd")
@@ -79,6 +86,26 @@ namespace HelloWorld
                + "','" + singleComputer.VideoCard
             + "'");
             }
+
+            IEnumerable<Computer>? computersEf = entityFramework.Computer?.ToList<Computer>(); // wyciąganie IEnumerable(kolekcji) z bazy danych
+
+            Console.WriteLine("Tutaj są dane przesłane z bazy danych EF");
+
+            if (computersEf != null)
+            {
+                foreach (Computer singleComputer in computersEf)
+                {
+                    Console.WriteLine("'" + singleComputer.ComputerId
+                   + "','" + singleComputer.Motherboard
+                   + "','" + singleComputer.HasWifi
+                   + "','" + singleComputer.HasLTE
+                   + "','" + singleComputer.ReleaseDate.ToString("yyyy-MM-dd")
+                   + "','" + singleComputer.Price.ToString("0.00", CultureInfo.InvariantCulture)
+                   + "','" + singleComputer.VideoCard
+                + "'");
+                }
+            }
+
 
             //myComputer.HasWifi = false;
             //Console.WriteLine(myComputer.Price);
