@@ -72,3 +72,4 @@ E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\Read
 E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\ReadAndWriteFiles\obj\Debug\net7.0\ReadAndWriteFiles.pdb
 E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\ReadAndWriteFiles\obj\Debug\net7.0\ReadAndWriteFiles.genruntimeconfig.cache
 E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\ReadAndWriteFiles\obj\Debug\net7.0\ref\ReadAndWriteFiles.dll
+E:\Programowanie\4.Nauka\dotNetCore7SQLServer\dotnet-course-code\HelloWorld\ReadAndWriteFiles\bin\Debug\net7.0\Newtonsoft.Json.dll
