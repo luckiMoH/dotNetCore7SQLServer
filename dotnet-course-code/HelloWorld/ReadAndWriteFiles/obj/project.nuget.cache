@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5f3+fgNYjG7SRuHRuKAw1Z9LRbxEyflG4W0xbVeCG5Vr6NnHrErkiXe9lMDFfvEuujbis3okWgmnSHh6jIf24Q==",
+  "dgSpecHash": "3Xq++49vRiD1tmoTaMzbaqlwW05b4JDCdlcDbStXYd6c0kE+ljrbi3koSCan1sL6oQWaW3ysjZ4HDE0vGJD/8Q==",
   "success": true,
   "projectFilePath": "E:\\Programowanie\\4.Nauka\\dotNetCore7SQLServer\\dotnet-course-code\\HelloWorld\\ReadAndWriteFiles\\ReadAndWriteFiles.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\X\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\X\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\X\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\X\\.nuget\\packages\\dapper\\2.1.21\\dapper.2.1.21.nupkg.sha512",
     "C:\\Users\\X\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\X\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\X\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\X\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.2\\microsoft.data.sqlclient.5.1.2.nupkg.sha512",
     "C:\\Users\\X\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
     "C:\\Users\\X\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",

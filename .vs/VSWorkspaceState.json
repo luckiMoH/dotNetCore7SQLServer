@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dotnet-course-code",
+    "\\dotnet-course-code\\HelloWorld"
   ],
-  "SelectedNode": "\\HelloWorld.sln",
+  "SelectedNode": "\\dotnet-course-code\\HelloWorld\\HelloWorld.sln",
   "PreviewInSolutionExplorer": false
 }
