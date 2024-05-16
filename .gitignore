@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/dotnet-course-code/ZadanieIterowaniePoDanychWejsciowych/.vs/ZadanieIterowaniePoDanychWejsciowych/DesignTimeBuild
+/dotnet-course-code/ZadanieIterowaniePoDanychWejsciowych/.vs/ZadanieIterowaniePoDanychWejsciowych/FileContentIndex
